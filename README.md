@@ -1,0 +1,4 @@
+manifest
+========
+
+manifest for cubieboard
