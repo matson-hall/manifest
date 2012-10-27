@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+	  fetch="https://github.com/matson-hall/" />
+  <default revision="linux-cubieboard"
+           remote="github"
+           sync-j="4" />
+
+  <project path="matson/allwinner-buildroot" name="allwinner-buildroot" />
+  <project path="matson/allwinner-pack-tools" name="allwinner-pack-tools" />
+  <project path="matson/linux-allwinner" name="linux-allwinner" />
+
+</manifest>
