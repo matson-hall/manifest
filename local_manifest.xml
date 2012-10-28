@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="git://github.com/allwinner-dev-team/" name="allwinner" />
-  <remote fetch="git://github.com/matson-hall/" name="matson-hall" />
+  <remote fetch="https://github.com/matson-hall/" name="matson-hall" />
 
   <project path="external/cedarx" name="android_external_cedarx" remote="allwinner" revision="master" />
   <project path="hardware/realtek" name="android_hardware_realtek" remote="allwinner" revision="ics" />
