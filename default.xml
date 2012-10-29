@@ -203,7 +203,6 @@
   <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -249,10 +248,8 @@
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
-  <project path="system/core" name="CyanogenMod/android_system_core" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
   <project path="system/media" name="CyanogenMod/android_system_media" />
-  <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
 

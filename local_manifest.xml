@@ -3,6 +3,9 @@
   <remote fetch="git://github.com/allwinner-dev-team/" name="allwinner" />
   <remote fetch="https://github.com/matson-hall/" name="matson-hall" />
 
+  <project path="build" name="android_build" remote="matson-hall" revision="ics-cubieboard">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="external/cedarx" name="android_external_cedarx" remote="allwinner" revision="master" />
   <project path="hardware/realtek" name="android_hardware_realtek" remote="allwinner" revision="ics" />
   <project path="kernel/allwinner/common" name="linux-allwinner" remote="matson-hall" revision="ics-cubieboard" />
@@ -11,5 +14,8 @@
   <project path="vendor/allwinner/cubieboard" name="android_vendor_allwinner_cubieboard" remote="matson-hall" revision="ics-cubieboard" />
   <project path="tools" name="allwinner-pack-tools" remote="matson-hall" revision="ics-cubieboard" />
   <project path="frameworks/base" name="android_frameworks_base" remote="matson-hall" revision="ics-cubieboard" />
+  <project path="system/core" name="android_system_core" remote="matson-hall" revision="ics-cubieboard" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="matson-hall" revision="ics-cubieboard" />
+  <project path="system/netd" name="android_system_netd" remote="matson-hall" revision="ics-cubieboard" />
   <project path="system/core" name="android_system_core" remote="matson-hall" revision="ics-cubieboard" />
 </manifest>
