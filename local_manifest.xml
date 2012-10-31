@@ -17,5 +17,4 @@
   <project path="system/core" name="android_system_core" remote="matson-hall" revision="ics-cubieboard" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="matson-hall" revision="ics-cubieboard" />
   <project path="system/netd" name="android_system_netd" remote="matson-hall" revision="ics-cubieboard" />
-  <project path="system/core" name="android_system_core" remote="matson-hall" revision="ics-cubieboard" />
 </manifest>
