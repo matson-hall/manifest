@@ -5,9 +5,6 @@
   <remote  name="github" fetch="https://github.com/" />
   <default revision="refs/heads/ics" remote="github" sync-j="4" />
 
-  <project path="build" name="CyanogenMod/android_build">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="bionic" name="CyanogenMod/android_bionic" />
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
